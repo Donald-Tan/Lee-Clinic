@@ -355,7 +355,20 @@ h2 { font-family: var(--serif); }
 .contact-elegant-header {
   text-align: center;
   max-width: 640px;
-  margin: 0 auto 4.5rem;
+  margin: 0 auto;
+}
+.contact-elegant-header-section {
+  background: var(--green-dark);
+  text-align: center;
+}
+.contact-elegant-header-section .eyebrow {
+  color: rgba(255,255,255,0.78);
+}
+.contact-elegant-header-section h1 {
+  color: var(--white);
+}
+.contact-elegant-header-section p {
+  color: rgba(255,255,255,0.82);
 }
 .eyebrow {
   display: inline-block;
@@ -615,9 +628,9 @@ footer {
   .hero p { max-width: 100%; margin-left: auto; margin-right: auto; }
   .hero-cta { justify-content: center; }
   .hero-graphic {
-    /* Anchor to the paragraph (~30% down the hero on phone) instead of the section center.
+    /* Anchor to the paragraph (~35% down the hero on phone) instead of the section center.
        This puts the cross's center directly behind the paragraph copy. */
-    top: 30%;
+    top: 35%;
     left: 50%;
     right: auto;
     transform: translate(-50%, -50%);
